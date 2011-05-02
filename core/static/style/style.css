@@ -1,0 +1,103 @@
+body, html {
+  margin:0;
+  padding:0;
+}
+
+#root {
+  width:900px;
+  margin: 0 auto;
+  background:#99c;
+}
+
+#header {
+  padding: 5px 10px;
+  background: #ddd;
+}
+
+#nav {
+  padding: 5px 10px;
+  background: #c99;
+}
+
+.active {
+  color: #fff;
+}
+
+#nav ul {
+  margin:0;
+  padding:0;
+  list-style:none;
+}
+
+#nav li {
+  display:inline;
+  margin:10;
+  padding:0;
+}
+
+
+#main {
+  float: right;
+  width: 500px;
+  padding: 10px;
+}
+
+#sidebar {
+  float: left;
+  width: 300px;
+}
+
+#footer {
+  text-align: center;
+  padding: 5px 10px;
+  clear:both;
+  background: #cc9;
+}
+
+.image {
+  text-align:center;
+  vertical-align:middle;
+  height: 500px;
+}
+
+img {
+  max-height:500px;
+  max-width: 500px;
+}
+
+.votey 
+{
+    text-align: center;
+}
+.votey table 
+{
+    margin: 0 auto; 
+    text-align: left;
+}
+
+
+.button {
+	line-height: 1;
+	padding: 7px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #fff;
+	background-color: #39c;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+input.button, button.button {
+	border: 0px none;
+  margin: 5px 3px;
+}
+
+.exp {
+  text-align: center;
+}
+
+.upload {
+  text-align: center;
+}
