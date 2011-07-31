@@ -1,0 +1,6 @@
+*~
+*.pyc
+*.pyo
+build/
+dist/
+settings/local.py

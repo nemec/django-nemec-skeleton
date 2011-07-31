@@ -1,3 +1,8 @@
+# This file contains default values for a number of django
+# settings. It will be the first settings file imported,
+# so every setting may be (accidentally or not) overwritten
+# by the development or local settings.
+
 import os.path
 
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -88,7 +93,6 @@ STATICFILES_FINDERS = (
 )
 
 ROOT_URLCONF = PROJECT_NAME + '.urls'
-print ROOT_URLCONF
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
